@@ -1,0 +1,6 @@
+PASS examples/good.md
+FAIL examples/missing-date.md: missing required key 'date'
+FAIL examples/empty-title.md: empty value for required key 'title'
+FAIL examples/bad-tags.md: key 'tags' should be list, got str
+FAIL examples/no-frontmatter.md: no frontmatter block (file must start with ---)
+5 file(s) checked, 1 passed, 4 failed
